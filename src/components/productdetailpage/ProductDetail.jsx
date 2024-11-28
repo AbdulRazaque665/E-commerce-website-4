@@ -44,7 +44,7 @@ function ProductDetails() {
             <button className="btn btn-dark me-2" onClick={() => dispatch(addProduct(product))}>
               Add to Cart
             </button>
-            <button
+            {/* <button
               className="btn btn-primary me-2"
               onClick={() => dispatch(increaseQuantity(product.id))}
               disabled={cartQuantity === 0}
@@ -57,7 +57,7 @@ function ProductDetails() {
               disabled={cartQuantity <= 1}
             >
               Decrease Quantity
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
